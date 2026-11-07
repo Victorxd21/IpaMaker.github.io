@@ -1,0 +1,21 @@
+name: Monochrome
+options:
+  bundleIdPrefix: com.victorxd21
+  deploymentTarget:
+    iOS: "15.0"
+targets:
+  Monochrome:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - path: Monochrome
+    info:
+      path: Monochrome/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.victorxd21.monochrome
+        CODE_SIGN_IDENTITY: ""
+        CODE_SIGNING_REQUIRED: "NO"
+        CODE_SIGN_ENTITLEMENTS: ""
+        CODE_SIGNING_ALLOWED: "NO"
